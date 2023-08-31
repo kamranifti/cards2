@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+    background-color: rgb(177, 242, 242);
+    font-family: Nunito;
+}
+img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    opacity: .7;
+    padding-bottom: 15px;
+}
